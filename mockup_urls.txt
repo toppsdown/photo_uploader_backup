@@ -1,0 +1,13 @@
+
+
+
+
+Very large image:
+original: https://res.cloudinary.com/hyetmyubn/image/upload/v1452182179/nqh5rig0brhmbjrbfky3.jpg
+
+
+filled: https://res.cloudinary.com/hyetmyubn/image/upload/w_1700,h_500,c_fill/v1452182179/nqh5rig0brhmbjrbfky3.jpg
+grabs the middle 1700 x 500
+
+fit: https://res.cloudinary.com/hyetmyubn/image/upload/w_1700,h_500,c_fit/v1452182179/nqh5rig0brhmbjrbfky3.jpg
+resizes the image to be 500px tall

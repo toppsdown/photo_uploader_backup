@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    - if (stylesheets = locals[:stylesheets])
+      - stylesheets.each do |ss|
+        %link{:rel => :stylesheet, :type => "text/css", :href => "assets/#{ss}.css"}
+
+  %body
+    = render_partial 'nav'
+    = yield
+

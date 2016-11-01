@@ -1,0 +1,6 @@
+- pages = [ 'food', 'puppy', 'surfer']
+%ul
+  - pages.each do |p|
+    %li
+      %a{ :href => "#{p}.html", :title => "#{p}" }
+        = p

@@ -1,0 +1,10 @@
+
+- sizes.each do |size|
+  %h2
+    = "#{size}:"
+    - base_url = "https://res.cloudinary.com/hdjpuxccb/image/upload"
+    - final_url = File.join(base_url, size_transform(size), file_name)
+
+  %div.photo{ style: "background-image:url(#{final_url})"}
+
+

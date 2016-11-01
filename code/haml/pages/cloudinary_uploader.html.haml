@@ -1,0 +1,9 @@
+
+%div.cloudinary
+
+  %a{ href: '#', id: 'upload_widget_opener'}
+    upload
+
+  - if (scripts = locals[:scripts])
+    - scripts.each do |s|
+      %script(src=s)
